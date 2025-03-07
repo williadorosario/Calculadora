@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculadora Dev</title>
+</head>
+
+<body>
+
+        <video src="./video/3141210-uhd_3840_2160_25fps.mp4" autoplay loop muted></video>
+        <div class="container">
+
+                <input class="display">
+                <button class="gray-button" onclick="limparTela('ac')">AC</button>
+                <button class="gray-button" onclick="inverte('+/-')">+/-</button>
+                <button class="laranja-button" onclick="adicionarCaracter('/')"><img width="40" height="40"
+                                src="https://img.icons8.com/ios-glyphs/30/divide.png" alt="divide" /></button>
+                <button class="laranja-button" onclick="adicionarCaracter('*')"><img width="30" height="30"
+                                src="https://img.icons8.com/ios-glyphs/30/multiply.png" alt="multiply" /></button>
+                <button class="black-button" onclick="adicionarCaracter('7')">7</button>
+                <button class="black-button" onclick="adicionarCaracter('8')">8</button>
+                <button class="black-button" onclick="adicionarCaracter('9')">9</button>
+                <button class="laranja-button" onclick="adicionarCaracter('-')"><img width="30" height="30"
+                                src="https://img.icons8.com/ios-glyphs/30/minus-math.png" alt="minus-math" /></button>
+                <button class="black-button" onclick="adicionarCaracter('4')">4</button>
+                <button class="black-button" onclick="adicionarCaracter('5')">5</button>
+                <button class="black-button" onclick="adicionarCaracter('6')">6</button>
+                <button class="laranja-button" onclick="adicionarCaracter('+')"><img width="30" height="30"
+                                src="https://img.icons8.com/ios-glyphs/30/plus-math.png" alt="plus-math" /></button>
+                <button class="black-button" onclick="adicionarCaracter('1')">1</button>
+                <button class="black-button" onclick="adicionarCaracter('2')">2</button>
+                <button class="black-button" onclick="adicionarCaracter('3')">3</button>
+                <button class="laranja-button-igual" onclick="calcular()">=</button>
+                <button id="zero" class="black-button" onclick="adicionarCaracter('0')">0</button>
+                <button id="ponto" class="black-button" onclick="adicionarCaracter('.')">.</button>
+
+        </div>
+</body>
+<script src="./scripts.js"></script>
+
+</html>
