@@ -27,3 +27,8 @@ Embora a calculadora use a função eval() para cálculos, isso pode ser arrisca
 Melhorias Futuras
 
 Planejamos adicionar mais funcionalidades, como validação de entrada, funções trigonométricas e melhor acessibilidade para teclado e leitores de tela.
+
+<div>
+  <img src="https://github.com/user-attachments/assets/08c9887a-ea6d-4921-8f16-5549b85db888"
+</div>
+
